@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  background: url(mmoutain.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+header u {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.stopwatch-container {
+  border: 2px solid black;
+  width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  color: black;
+}
+
+.stopwatch {
+/*  background: whitesmoke;*/
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.control-btn {
+  margin: 5px;
+  padding: 8px 15px;
+  font-size: 16px;
+}
+
+.lap-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lap-list li {
+  margin-bottom: 5px;
+}
+
+label.tag{
+  color: black;
+  font-size: 40px;
+  font-family: ui-serif;
+}
